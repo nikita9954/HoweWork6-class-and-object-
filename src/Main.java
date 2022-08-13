@@ -3,12 +3,23 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-    CreditCard creditCard=new CreditCard();
-        creditCard.getnumber(scanner.nextInt());
-        creditCard.getaccount(45255);
-        creditCard.newmoney((scanner.nextInt()));
-        creditCard.plusmoney(0);
-        creditCard.minusmoney(0);
+        CreditCard MTB=new CreditCard();
+        CreditCard BTB=new CreditCard();
+        CreditCard BSB=new CreditCard();
+        MTB.getcreditcard(464664646, scanner.nextInt());
+        BTB.getcreditcard(544667455, scanner.nextInt());
+        BSB.getcreditcard(464564654, scanner.nextInt());
+        MTB.newmoney1(scanner.nextInt());
+        BTB.newmoney(scanner.nextInt());
+        BSB.minusmoney(scanner.nextInt());
+
+
+
+
+
+
+
+
 
     }
 
