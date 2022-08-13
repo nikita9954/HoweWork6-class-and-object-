@@ -6,5 +6,10 @@ public class Main {
     CreditCard creditCard=new CreditCard();
         creditCard.getnumber(scanner.nextInt());
         creditCard.getaccount(45255);
+        creditCard.newmoney((scanner.nextInt()));
+        creditCard.plusmoney(0);
+        creditCard.minusmoney(0);
+
     }
+
 }
