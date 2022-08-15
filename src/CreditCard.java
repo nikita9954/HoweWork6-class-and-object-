@@ -1,38 +1,30 @@
 public class CreditCard {
-    private int bankbnumber;
-    private int money1;
-    private int money;
-    private int money2;
-    private int money3;
-    private int money4;
-
-
-
-    CreditCard(){};
-    void getcreditcard(int d,int c){
-        bankbnumber=d;
-        money=c;
+     int BankNumber;
+     int Money;
+     int MoneyFromScanner;
+     int MoneyCards;
+     int MoneyCard3;
+     CreditCard(){};
+    void GetCreditCard(int d,int c){
+        BankNumber=d;
+        MoneyFromScanner=c;
         System.out.print(d+" ");
         System.out.print(c+ " ");
-
-    }
-        void newmoney ( int d){
-            money1 = d;
-            money2 =money+d;
-            System.out.print( money2+ " 2 card");
+    }void  GetCreditCard2( int d){
+        Money = d;
+        MoneyCards =MoneyFromScanner+d;
+        System.out.print( MoneyCards+ " 2 card");
         }
-    void newmoney1 ( int d){
-        money1 = d;
-        money2 =money+d;
-        System.out.print( money2+ " 1 card");
+    void GerCreditCard1 ( int d){
+        Money = d;
+        MoneyCards =MoneyFromScanner+d;
+        System.out.print( MoneyCards+ " 1 card");
     }
-
-        void minusmoney ( int w){
-            money3 = w;
-            money4 = money - money3;
-            System.out.println( money4+ " 3 card");
+    void GetCreditCard3 ( int w){
+        Money = w;
+        MoneyCards = MoneyFromScanner- Money;
+        System.out.println( MoneyCard3+ " 3 card");
         }
-
     }
 
 
