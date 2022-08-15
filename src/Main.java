@@ -6,14 +6,12 @@ public class Main {
         CreditCard MTB=new CreditCard();
         CreditCard BTB=new CreditCard();
         CreditCard BSB=new CreditCard();
-        MTB.GetCreditCard(464664646, scanner.nextInt());
-        BTB.GetCreditCard(544667455, scanner.nextInt());
-        BSB.GetCreditCard(464564654, scanner.nextInt());
-        MTB.GerCreditCard1(scanner.nextInt());
-        BTB.GetCreditCard2(scanner.nextInt());
-        BSB.GetCreditCard3(scanner.nextInt());
-
-
+        MTB.creditCard(464664646, scanner.nextInt());
+        BTB.creditCard(544667455, scanner.nextInt());
+        BSB.creditCard(464564654, scanner.nextInt());
+        MTB.gerCreditCard1(scanner.nextInt());
+        BTB.getCreditCard2(scanner.nextInt());
+        BSB.getCreditCard3(scanner.nextInt());
 
 
 
